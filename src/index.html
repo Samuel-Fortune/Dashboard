@@ -199,7 +199,7 @@
                   <p class="text-[#A5AAC0]">Saturday, 19 November 2022</p>
                 </span>
               </div>
-              <div class="flex flex-row-reverse w-[34%] pt-[15px]">
+              <div class="flex flex-row-reverse w-[36%] pt-[15px]">
                 <div class="w-full">
                   <img
                     class="h-20 w-20 rounded-full float-right border-4 border-white"
@@ -228,7 +228,7 @@
                     Staff Bio
                   </h1>
                 </div>
-                <div class="bg-white w-1/2 h-[52vh] rounded-md shadow-md">
+                <div class="bg-white w-1/2 h-full pb-8 rounded-md shadow-md">
                   <form action="" method="post">
                     <div class="flex flex-row w-full gap-5 pt-8">
                       <!--First Name-->
@@ -248,7 +248,7 @@
                       <div class="flex flex-col gap-2">
                         <label for="name">Last Name </label>
                         <input
-                          class="border-slate-200 border-[1px] h-10 rounded-md"
+                          class="border-slate-200 border-[1px] pl-2 h-10 rounded-md"
                           type="text"
                           name="name"
                           id="name"
@@ -280,6 +280,34 @@
                           name="number"
                           id="number"
                           placeholder="+234-7777-7777"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="flex flex-row w-full gap-5 pt-8">
+                      <!--Company-->
+                      <div class="flex flex-col pl-8 gap-2">
+                        <label for="name">Company </label>
+                        <input
+                          class="border-slate-200 border-[1px] pl-2 h-10 rounded-md"
+                          type="text"
+                          name="text"
+                          id="text"
+                          placeholder="TYL"
+                          required
+                        />
+                      </div>
+
+                      <!--State-->
+                      <div class="flex flex-col gap-2">
+                        <label for="name">State </label>
+                        <input
+                          class="border-slate-200 border-[1px] pl-2 h-10 rounded-md"
+                          type="text"
+                          name="text"
+                          id="text"
+                          placeholder="ALL"
                           required
                         />
                       </div>
