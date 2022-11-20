@@ -184,7 +184,9 @@
         <!--Main Menu-->
         <div class="bg-[#F9F9F9] w-full h-full">
           <div class="w-full flex flex-col pl-[20%]">
-            <div class="w-full flex flex-row justify-evenly pt-14">
+            <div
+              class="w-full flex flex-row justify-evenly pt-14 pl-[2%] pr-[2%]"
+            >
               <div class="w-full flex flex-col">
                 <span class="w-full justify-center">
                   <h1
@@ -219,16 +221,68 @@
             </div>
 
             <!--Staff Bio-->
-            <section class="w-full h-full">
-              <div class="w-full">
+            <section class="w-full h-full pt-[5%]">
+              <div class="w-full pl-[2%] pr-[2%] flex flex-col gap-5">
                 <div>
-                  <h1 class="text-black">Staff Bio</h1>
+                  <h1 class="text-black text-[25px] tracking-wide font-normal">
+                    Staff Bio
+                  </h1>
                 </div>
-                <div>
+                <div class="bg-white w-1/2 h-[52vh] rounded-md shadow-md">
                   <form action="" method="post">
-                    <div class="">
-                      <label for="name">First Name </label>
-                      <input type="text" name="name" id="name" required />
+                    <div class="flex flex-row w-full gap-5 pt-8">
+                      <!--First Name-->
+                      <div class="flex flex-col pl-8 gap-2">
+                        <label for="name">First Name </label>
+                        <input
+                          class="border-slate-200 border-[1px] pl-2 h-10 rounded-md"
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="First Name"
+                          required
+                        />
+                      </div>
+
+                      <!--Last Name-->
+                      <div class="flex flex-col gap-2">
+                        <label for="name">Last Name </label>
+                        <input
+                          class="border-slate-200 border-[1px] h-10 rounded-md"
+                          type="text"
+                          name="name"
+                          id="name"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="flex flex-row w-full gap-5 pt-8">
+                      <!--Staff Email-->
+                      <div class="flex flex-col pl-8 gap-2">
+                        <label for="name">Staff Email </label>
+                        <input
+                          class="border-slate-200 border-[1px] pl-2 h-10 rounded-md"
+                          type="email"
+                          name="email"
+                          id="email"
+                          placeholder="you@me.com"
+                          required
+                        />
+                      </div>
+
+                      <!--Phone Number-->
+                      <div class="flex flex-col gap-2">
+                        <label for="name">Phone Number </label>
+                        <input
+                          class="border-slate-200 border-[1px] pl-2 h-10 rounded-md"
+                          type="number"
+                          name="number"
+                          id="number"
+                          placeholder="+234-7777-7777"
+                          required
+                        />
+                      </div>
                     </div>
                   </form>
                 </div>
