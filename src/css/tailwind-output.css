@@ -836,12 +836,12 @@ video {
   width: 50%;
 }
 
-.w-10{
-  width: 2.5rem;
-}
-
 .w-1{
   width: 0.25rem;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-5{
@@ -2693,10 +2693,6 @@ body {
 
   .lg\:w-1\/2{
     width: 50%;
-  }
-
-  .lg\:w-\[\]{
-    width: ;
   }
 
   .lg\:w-\[55\%\]{
