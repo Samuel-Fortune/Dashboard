@@ -65,7 +65,7 @@
                             </span>
                         </div>
                         <div>
-                            <form action="" method="post">
+                            <form action="process.login.php" method="post">
                                 <div class="flex flex-col gap-3">
                                     <label for="name">Username</label>
                                     <input class="border-slate-200 h-10 pl-2 border-[1px] rounded-md" type="text"
