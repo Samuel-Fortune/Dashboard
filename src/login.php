@@ -87,7 +87,7 @@
                                 </div>
                                 <div
                                     class="w-full hover:animate-pulse bg-blue-600 rounded-md flex h-11 justify-center place-items-center">
-                                    <button class="text-white" type="submit">Sign in</button>
+                                    <input type="submit" value="Login" name="submit">
                                 </div>
                                 <div class="flex flex-row pt-7 pb-6 gap-2">
                                     <span>
